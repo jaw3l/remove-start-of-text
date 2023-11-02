@@ -1,11 +1,10 @@
 {
-	"id": "sample-plugin",
-	"name": "Sample Plugin",
+	"id": "remove-start-of-text",
+	"name": "Remove Start-of-Text",
 	"version": "1.0.0",
 	"minAppVersion": "0.15.0",
-	"description": "This is a sample plugin for Obsidian. This plugin demonstrates some of the capabilities of the Obsidian API.",
-	"author": "Obsidian",
-	"authorUrl": "https://obsidian.md",
-	"fundingUrl": "https://obsidian.md/pricing",
+	"description": "This Obsidian plugin removes the start-of-text character (U+0002) from the text when you save a file or clicking button on the sidebar.",
+	"author": "jaw3l",
+	"authorUrl": "https://github.com/jaw3l",
 	"isDesktopOnly": false
 }
