@@ -3,7 +3,7 @@
 	"name": "Remove Start-of-Text",
 	"version": "1.0.0",
 	"minAppVersion": "0.15.0",
-	"description": "This Obsidian plugin removes the start-of-text character (U+0002) from the text when you save a file or clicking button on the sidebar.",
+	"description": "Removes the start-of-text (STX or U+0002) character from the text when clicking button on the sidebar.",
 	"author": "jaw3l",
 	"authorUrl": "https://github.com/jaw3l",
 	"isDesktopOnly": false
