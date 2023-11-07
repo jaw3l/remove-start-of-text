@@ -16,6 +16,7 @@ export default class RemoveSTX extends Plugin {
 		await this.loadSettings();
 
 		this.addRibbonIcon('x-circle', 'Remove Start-of-Text (STX)', (evt: MouseEvent) => {
+			// TODO: Add another view type because this only works in editing mode. It should work in preview mode, too.
 			const markdownView = this.app.workspace.getActiveViewOfType(MarkdownView);
 			if (markdownView) {
 				const editor = markdownView.editor;
